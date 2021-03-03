@@ -18,7 +18,7 @@ public class PrimeNoUsingSieveOfEratosthenes {
 	{
 		boolean isPrime[] = new boolean[n+1] ;
 		Arrays.fill(isPrime, true); // Init as all primes
-		
+		// Git change
 		isPrime[0] = false ;
 		isPrime[1] = false ;
 		
